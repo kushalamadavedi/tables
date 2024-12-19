@@ -1,0 +1,34 @@
+
+<div class="row mt-5">
+    <div class="col-md-12">
+        <table class="table table-bordered">
+            <thead>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Category</th>
+                <th>Price</th>
+                <th>Stock</th>
+                <th>Rating</th>
+                <th>Brand</th>
+                <th>Description</th>
+                <th>Color</th>
+                <th>Value</th>
+            </thead>
+            <tbody>
+                <tr *ngFor = "let prod of products">
+                   <td>{{prod.id}}</td>
+                   <td>{{prod.name}}</td>
+                   <td>{{prod.category}}</td>
+                   <td>{{prod.price}}</td>
+                   <td>{{prod.stock}}</td>
+                   <td>{{prod.rating}}</td>
+                   <td>{{prod.brand}}</td>
+                   <td>{{prod.description}}</td>
+                   <td>{{prod.color}}</td>
+                   <td>{{prod.value}}</td>
+                  
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
